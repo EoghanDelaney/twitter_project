@@ -5,10 +5,10 @@ from tweepy import OAuthHandler
 from textblob import TextBlob
 from datetime import datetime, timedelta
 
-consumer_key = 'tSPldIATTB6mMx9Q7crvpfJGj'
-consumer_secret = 'qqy4VCmDvG776HgNxjREecqJeHJV0eweYS8LsoC4dKELSqtcwm'
-access_token = '3091692196-DBUXTMIpv4I7ytlgiVSVfbE4qJVzP4EHzNJB5Iv'
-access_secret= 'HzYOriqDT15ytwzGeDjeQb0rbSE0Nyli6bfQ3menawDxN'
+consumer_key = '####'
+consumer_secret = '#####'
+access_token = '#####'
+access_secret= '#####'
 
 auth = tw.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_secret)
