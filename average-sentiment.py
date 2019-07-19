@@ -12,5 +12,4 @@ def loaddaily():
     csv.writer(weeklytotal).writerow(group)
     weeklytotal.close()
 
-
 loaddaily()
